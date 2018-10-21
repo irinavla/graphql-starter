@@ -29,7 +29,7 @@ class BookList extends Component {
 
   render() {
     return (
-      <div>
+      <div className="display-books">
         <ul id="book-list">
           { this.displayBooks() }
         </ul>
