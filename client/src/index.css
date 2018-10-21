@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 2em;
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
@@ -13,4 +13,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+#book-list {
+  list-style: none;
 }
